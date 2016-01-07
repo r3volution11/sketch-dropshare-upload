@@ -1,4 +1,4 @@
-// Upload designs to the cloud (shift cmd u)
+// Upload designs to the cloud (shift option cmd u)
 
 // Copyright (c) 2015 Jacob Elias
 //
@@ -45,11 +45,11 @@ var selected = selection[i]
 var selectionName = [selected name]
 
 // Begin.
-var PREVIEW_APPLICATION = "CloudApp";
+var PREVIEW_APPLICATION = "Dropshare";
 var PREVIEW_TARGET_NAME = "Preview";
 
-var PREVIEW_DIRECTORY_NAME = "com.jelias.sketch-upload";
-var LOG_PREFIX = "sketch-upload";
+var PREVIEW_DIRECTORY_NAME = "com.jelias.dropshare-upload";
+var LOG_PREFIX = "dropshare-upload";
 var PREVIEW_FILE_NAME = [doc askForUserInput:'File Name:' initialValue:selectionName]+".png";
 
 // Stop plugin if user hit's cancel

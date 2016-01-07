@@ -1,30 +1,26 @@
 # Introduction
 
-This [Sketch](http://bohemiancoding.com/sketch) plugin allows designers to upload the selected artboard or slice to
-[Cloud App](http://www.getcloudapp.com/) with a simple shortcut `⇧⌘U`.
-The plugin works by exporting the selected artboard or layer to Sketch's cache
-directory and uploading that file via Cloud App.
+*Note: This is a fork of [Jacob Elias' Cloudapp Upload plugin](https://github.com/jelias/sketch-upload). I decided to fork it for those out there that may be concerned about modifying a plugin file. Thanks Jacob!*
 
+This [Sketch](http://bohemiancoding.com/sketch) plugin allows you to upload a selected artboard or slice to 
+[Dropshare](https://getdropsha.re/) with a simple shortcut `⇧⌘⌥U`.
+
+The plugin works by exporting the selected artboard or layer to Sketch's cache
+directory and uploading that file via Dropshare.
+
+This works fine with the Cloudapp version installed too. 
 
 # Installation
 
-1. Just [download the most recent release](http://j.mp/SketchUpload).
+1. Download Zip.
 
-2. Double-click the file `Upload.sketchplugin` Sketch should open automatically and tell you that a new plugin was installed.
-
-####or
-
-1. Download [Sketch Toolbox](http://sketchtoolbox.com/)
-
-2. Search "Sketch Upload" and press install.
-
-3. Enjoy!
+2. Double-click the file `Dropshare Upload.sketchplugin` Sketch should open automatically and tell you that a new plugin was installed.
 
 # Usage
 
 1. Select the artboard you would like to upload.
 
-2. Then run the plugin via `Plugins > Upload` or the simple shortcut `⇧⌘U`.
+2. Then run the plugin via `Plugins > Dropshare Upload` or the simple shortcut `⇧⌘⌥U`.
 
 3. Sketch will prompt you to name your file.
 
@@ -33,9 +29,9 @@ directory and uploading that file via Cloud App.
 
 > ###Note: 
 
->	If you want to upload your designs via another service (i.e. Droplr) just change
+>	If you want to upload your designs via another service (i.e. Cloudapp) just change
 
-> `var PREVIEW_APPLICATION = "CloudApp";`
+> `var PREVIEW_APPLICATION = "Dropshare";`
 	
 >	to what ever app you use.
 
@@ -61,15 +57,11 @@ If you are still having problems, create an issue and explain the problem in ful
 
 2. Sketch Upload does not work without an artboard or slice named ```upload```. ([Issue #7](https://github.com/jelias/sketch-upload/issues/7))
 
-
-
-# Author
+# Original Author
 
 [Jacob Elias](http://jelias.me)
 
-Follow me & ask questions [@jelias](https://twitter.com/_jelias_)
-
-and feel free to contribute, your help would be greatly appreciated.
+Feel free to contribute, your help would be greatly appreciated.
 
 #Thanks
 
